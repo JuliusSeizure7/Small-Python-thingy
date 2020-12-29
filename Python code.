@@ -1,0 +1,10 @@
+#This prints a line.
+class Person:
+  def __init__(self, name, age,):
+      self.name = name
+      self.age = age
+
+p1 = Person("John",35)
+
+print("Hi! My name is ",p1.name,"and my age is ",p1.age)
+
